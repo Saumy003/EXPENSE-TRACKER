@@ -530,7 +530,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ------------------------------------------------------------------ */
-/* Theme Page                                                          */
+/* Terms Page                                                          */
 /* ------------------------------------------------------------------ */
 
 
@@ -567,4 +567,37 @@ a { color: inherit; text-decoration: none; }
     color: white;
     text-align: center;
     padding: 1em 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* Privacy Page                                                          */
+/* ------------------------------------------------------------------ */
+
+.content{
+        background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.foot{
+    background: #111111;
+    color: #bbbbbb;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #8b5e83;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+
+.head{ 
+    background: linear-gradient(135deg, #111111, #1e1e1e);
+    color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #5b7fa6;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
